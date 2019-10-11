@@ -1,7 +1,7 @@
 # weChatRobort
 > make a wechat robort with hao son
 ---   
-## aim: to solution people do not have time to chat with their boyfriends/girlfriends
+## aim: to solve people do not have time to chat with their boyfriends/girlfriends
 ---   
 ### dependece: wxpy
 > u should install wxpy at first
