@@ -1,4 +1,5 @@
 from wxpy import *
+import random as rd
 receive = [
 "爱迪生说，天才是百分之一的勤奋加百分之九十九的汗水。",
 "查尔斯·史说，一个人几乎可以在任何他怀有无限热忱的事情上成功。",
@@ -114,7 +115,7 @@ if __name__ == '__main__':
     fr = b.friends().search(friends_name)[0]
     @b.register(fr, TEXT)
     def returnMs(msg):
-        fr.send(msg)
+        fr.send(receive[int(rd.random()*len(receive))])
         print(msg)
         return
     while True:
