@@ -5,7 +5,7 @@ import corpus #导入语料库
 if __name__ == '__main__':
     chicken_soup = corpus.chicken_soup
 
-    b = Bot(cache_path=True)
+    b = Bot()
     friends_name = input("请输入要聊天的好友名字：")
     if friends_name == '':
         fr = ''
